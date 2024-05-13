@@ -26,7 +26,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 className="img-fluid rounded-pill d-block"
                 src={process.env.PUBLIC_URL +"/images/myphoto_small.jpg"}
                 title="I'm Mohammad Abdulla"
-                alt="profile image 5"
+                alt="profile image"
               />
             </span>
             <h1 className="text-3 text-white text-center mb-0 d-lg-block">

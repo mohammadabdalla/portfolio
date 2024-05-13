@@ -5,7 +5,7 @@ import AboutUs from "./components/About";
 import Services from "./components/Services";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
+//import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";

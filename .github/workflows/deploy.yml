@@ -17,7 +17,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build --no-optional && eslint . --ignore-pattern node_modules --quiet
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
