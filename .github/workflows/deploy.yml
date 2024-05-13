@@ -15,13 +15,18 @@ jobs:
         actions: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Install dependencies
         run: npm install
 
       - name: Build
         run: npm run build 
+      - name: upload static site content
+        uses: actions/upload-artifacts@v3
+        with:
+            name: site
+            path: build/
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
