@@ -91,11 +91,9 @@ const Contact = ({ classicHeader, darkTheme }) => {
               Address
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-              2th Floor, Plot No.22,
+              Jubaiha, Amman.
               <br />
-              Jubaiha, Al-ghazaly.
-              <br />
-              Amman
+              
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
