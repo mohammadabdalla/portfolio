@@ -22,10 +22,10 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         #run: gh-pages -d build
-        #with:
-        #  ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #  BRANCH: gh-pages
-        #  FOLDER: build
+        with:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
         env:
           REACT_APP_EMAILJS_PUBLICKEY: ${{ secrets.REACT_APP_EMAILJS_PUBLICKEY }}
           REACT_APP_EMAILJS_SERVICE_ID: ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}
