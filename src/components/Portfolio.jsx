@@ -262,8 +262,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             }}
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
-                          />
-
+                          >
+                             
+                          </a>
                           <div className="portfolio-overlay-details">
                             <h5 className="text-white fw-400">
                               {project.title}
