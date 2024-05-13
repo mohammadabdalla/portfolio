@@ -19,9 +19,11 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npm install gh-pages   # Install gh-pages globally
-      - name: Install dependencies
-        run: npm install
+          git config --global user.email "mohammadabdulla523@gmail.com"
+          git config --global user.name "mohammadabdalla"
+          npm install -g gh-pages   # Install gh-pages globally
+      #- name: Install dependencies
+      #  run: npm install
 
       - name: Build
         run: npm run build 
