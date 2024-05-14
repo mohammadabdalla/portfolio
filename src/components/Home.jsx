@@ -12,7 +12,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         <div
   className="hero-bg parallax"
   style={{ 
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/myphoto.jpg)`
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/myphoto.jpeg)`
   }}
 ></div>
 
