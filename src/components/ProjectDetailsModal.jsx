@@ -70,7 +70,6 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                     <Slider {...settings} ref={sliderRef}>
                       <div className="item">
                         <img
-                        loading="lazy"
                           className="img-fluid"
                           alt=""
                           src={projectDetails?.thumbImage}
@@ -79,7 +78,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                       {projectDetails?.sliderImages?.length > 0 &&
                         projectDetails?.sliderImages?.map((image, index) => (
                           <div className="item" key={index}>
-                            <img className="img-fluid" alt="" src={image} loading="lazy" />
+                            <img className="img-fluid" alt="" src={image} />
                           </div>
                         ))}
                     </Slider>

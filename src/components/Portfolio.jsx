@@ -269,7 +269,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                     <div className="portfolio-box rounded">
                       <div className="portfolio-img rounded">
                         <img
-                        loading="lazy"
                           onLoad={() => {
                             setimagesLoaded(imagesLoaded + 1);
                           }}
