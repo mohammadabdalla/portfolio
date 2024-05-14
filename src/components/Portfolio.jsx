@@ -37,8 +37,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: process.env.PUBLIC_URL+"/images/projects/aws_arch_wowly.drawio.jpeg",
       sliderImages: [
-        process.env.PUBLIC_URL+"/images/projects/project-1.jpeg",
-        process.env.PUBLIC_URL+ "/images/projects/project-5.jpeg",
+        
       ],
       categories: [filters.AWS],
     },
@@ -63,8 +62,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: process.env.PUBLIC_URL+"/images/projects/ecommerce_app.jpeg",
       sliderImages: [
-        process.env.PUBLIC_URL+ "/images/projects/project-1.jpeg",
-        process.env.PUBLIC_URL+ "/images/projects/project-5.jpeg",
       ],
       categories: [filters.ECOMMERCE],
     },
@@ -272,6 +269,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                     <div className="portfolio-box rounded">
                       <div className="portfolio-img rounded">
                         <img
+                        loading="lazy"
                           onLoad={() => {
                             setimagesLoaded(imagesLoaded + 1);
                           }}
