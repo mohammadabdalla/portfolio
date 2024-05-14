@@ -146,6 +146,32 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         process.env.PUBLIC_URL+ "/images/projects/food-order-3.png",
       ],
       categories: [filters.ECOMMERCE],
+    },
+    {
+      title: "Python/Django Blogpost app",
+      projectInfo:
+        "A blog app built with django with protected routes with admin panel where you can manage the the blog content and the users.",
+      client: "-",
+      technologies: "Django",
+      /* industry: "Art & Design" ,*/
+      date: "jan 2, 2024",
+      url: {
+        name: "---",
+        link: "https://---",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:mohammadabdulla523@gmail.com",
+      },
+      thumbImage: process.env.PUBLIC_URL+"/images/projects/django-blog-1.png",
+      sliderImages: [
+        process.env.PUBLIC_URL+"/images/projects/django-blog-3.png",
+        process.env.PUBLIC_URL+ "/images/projects/django-blog-2.png",
+      ],
+      categories: [],
     }
   ];
 

@@ -93,6 +93,10 @@ const Resume = ({ classicHeader, darkTheme }) => {
       name: "Docker/Containerization",
       percent: 75,
     },
+    {
+      name: "Python/Django",
+      percent: 60,
+    },
   ];
 
   return (
