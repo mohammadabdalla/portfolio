@@ -16,7 +16,7 @@ const ResumeSection = ({ data }) => {
             <div className="st-height-b0 st-height-lg-b50"></div>
             <div className="st-resume-wrap">
               <div className="st-resume-heading">
-                <img src="/images/icon/resume-icon1.png" alt="resume-icon" />
+                <img src="/portfolio/images/icon/resume-icon1.png" alt="resume-icon" />
                 <h2 className="st-resume-heading-title">{educationTitle}</h2>
               </div>
               <div className="st-height-b50 st-height-lg-b30"></div>
@@ -35,7 +35,7 @@ const ResumeSection = ({ data }) => {
             <div className="st-height-b0 st-height-lg-b50"></div>
             <div className="st-resume-wrap">
               <div className="st-resume-heading">
-                <img src="/images/icon/resume-icon2.png" alt="resume-icon" />
+                <img src="/portfolio/images/icon/resume-icon2.png" alt="resume-icon" />
                 <h2 className="st-resume-heading-title">{experienceTitle}</h2>
               </div>
               <div className="st-height-b50 st-height-lg-b30"></div>
