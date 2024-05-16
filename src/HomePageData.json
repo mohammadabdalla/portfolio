@@ -1,14 +1,14 @@
 {
   "heroData": {
-    "bgImgLink": "/images/background/hero-bg.jpg",
+    "bgImgLink": "/portfolio/images/background/hero-bg.jpg",
     "imgLink": "",
     "title": "Mohammad <br /> Abdullah",
     "subTitle": "Hello, I’m",
     "designation": "A Software Engineer"
   },
   "aboutData": {
-    "imgLink": "/images/myphoto_small.jpeg",
-    "cvPdf": "/images/Resume.pdf",
+    "imgLink": "/portfolio/images/myphoto_small.jpeg",
+    "cvPdf": "/portfolio/images/Resume.pdf",
     "title": "Hi There! I'm Mohammad Abdullah",
     "subtitle": "A Software Engineer",
     "text": "I am a results-driven software engineer with a strong foundation in Full stack applications, specializing in crafting responsive and user-centric web applications. With a proven track record in e-commerce projects, I excel in optimizing performance and integrating seamless payment gateways. As an AWS Solutions Architect, showcasing my expertise in designing and implementing scalable cloud solutions. i Leverage my technical skills and AWS knowledge and provide leadership in architecting robust cloud infrastructures, addressing complex challenges, and collaborating effectively with cross-functional teams. Committed to continuous learning, I stay abreast of industry trends to deliver innovative solutions tailored to clients' business objectives",
@@ -42,7 +42,7 @@
   "serviceData": {
     "services": [
       {
-        "imgLink": "/images/icon/icon1.png",
+        "imgLink": "/portfolio/images/icon/icon1.png",
         "title": "Cloud Archetecting on AWS",
         "text": "As an AWS SAA, my role is to be the keeper of the AWS Well Architected Framework pillars, ensuring customers are following best practices, guidance, and recommendations to develop cloud solutions that are secure, resilient, efficient, and managed with operational excellence.",
         "effect": "zoom-out-up",
@@ -50,7 +50,7 @@
         "delay": "200"
       },
       {
-        "imgLink": "/images/icon/icon2.png",
+        "imgLink": "/portfolio/images/icon/icon2.png",
         "title": "Software Engineer Lifecycle",
         "text": "As a software engineer i deal with the design, development, testing, and maintenance of software applications.",
         "effect": "zoom-out-up",
@@ -58,7 +58,7 @@
         "delay": "300"
       },
       {
-        "imgLink": "/images/icon/icon3.png",
+        "imgLink": "/portfolio/images/icon/icon3.png",
         "title": "Database Management",
         "text": "Design optimized SQL and NoSql databases to implement the pillars of DB infrastructure, Data Integreity, Data Consistency, Data Recovery (by including backups)",
         "effect": "zoom-out-up",
@@ -66,7 +66,7 @@
         "delay": "400"
       },
       {
-        "imgLink": "/images/icon/icon4.png",
+        "imgLink": "/portfolio/images/icon/icon4.png",
         "title": "Clean Code",
         "text": "I write a code that's easy to read, maintain, understand and change through structure and consistency yet remains robust and secure to withstand performance demands",
         "effect": "zoom-out-up",
@@ -140,8 +140,8 @@
   "portfolioData": {
     "portfolioItems": [
       {
-        "imgLink": "/images/projects/aws_arch_wowly.drawio.jpeg",
-        "imgLinkLg": "/images/projects/aws_arch_wowly.drawio.jpeg",
+        "imgLink": "/portfolio/images/projects/aws_arch_wowly.drawio.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/aws_arch_wowly.drawio.jpeg",
         "title": "Wowly",
         "subTitle": "Software/Cloud Development",
         "description": "Built and deployed an application to the cloud ON s3 for static web hosting and an application load balancer and EC2 servers to host my backend as well as RDS to host my 'mysql' database",
@@ -151,8 +151,8 @@
         "delay": "200"
       },
       {
-        "imgLink": "/images/projects/ecommerce_app.jpeg",
-        "imgLinkLg": "/images/projects/ecommerce_app.jpeg",
+        "imgLink": "/portfolio/images/projects/ecommerce_app.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/ecommerce_app.jpeg",
         "title": "Ecommerce App",
         "subTitle": "Software Development",
         "description": "The ecommerce app i made included the following: Seamless registration, login/logout, and password recovery. Intuitive product catalog with categorization, filtering, and dynamic search capabilities. Feature-rich shopping cart with streamlined item management and a smooth checkout process. Comprehensive user account management, encompassing profiles, order history, and wishlists. Implementation of a robust product reviews and ratings system.",
@@ -162,8 +162,8 @@
         "delay": "200"
       },
       {
-        "imgLink": "/images/projects/food-order-1.jpeg",
-        "imgLinkLg": "/images/projects/food-order-2.jpeg",
+        "imgLink": "/portfolio/images/projects/food-order-1.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/food-order-2.jpeg",
         "title": "Food Delivery Webapp",
         "subTitle": "Software Development",
         "description": "A food delivery app built with reactjs including adming panel where you can manage reastaurant data such as users, menu, etc.. , and a restaurant panel so the owners of the restaurant can manage their own data as well, and a panel for customers who want to order with a checkout process.",
@@ -173,8 +173,8 @@
         "delay": "200"
       },
       {
-        "imgLink": "/images/projects/django-blog-1.jpeg",
-        "imgLinkLg": "/images/projects/django-blog-2.jpeg",
+        "imgLink": "/portfolio/images/projects/django-blog-1.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/django-blog-2.jpeg",
         "title": "Blogpos",
         "subTitle": "Software Development",
         "description": "A blog app built with django with protected routes with admin panel where you can manage the the blog content and the users.",
@@ -212,42 +212,42 @@
     },
     "informations": [
       {
-        "imgLink": "/images/blog/blog1.jpg",
+        "imgLink": "/portfolio/images/blog/blog1.jpg",
         "designation": "Admin",
         "date": "07-03-2023",
         "title": "latest trends in Graphic design according to you?",
         "href": "/blog/blog-details"
       },
       {
-        "imgLink": "/images/blog/blog2.jpg",
+        "imgLink": "/portfolio/images/blog/blog2.jpg",
         "designation": "Admin",
         "date": "07-03-2023",
         "title": "What are the latest trends in Graphic design according to you?",
         "href": "/blog/blog-details"
       },
       {
-        "imgLink": "/images/blog/blog3.jpg",
+        "imgLink": "/portfolio/images/blog/blog3.jpg",
         "designation": "Admin",
         "date": "07-03-2023",
         "title": "Trends in Graphic design according to you?",
         "href": "/blog/blog-details"
       },
       {
-        "imgLink": "/images/blog/blog1.jpg",
+        "imgLink": "/portfolio/images/blog/blog1.jpg",
         "designation": "Admin",
         "date": "07-03-2023",
         "title": "What are the latest trends in Graphic design according to you?",
         "href": "/blog/blog-details"
       },
       {
-        "imgLink": "/images/blog/blog2.jpg",
+        "imgLink": "/portfolio/images/blog/blog2.jpg",
         "designation": "Admin",
         "date": "07-03-2023",
         "title": "The latest trends in Graphic design according to you?",
         "href": "/blog/blog-details"
       },
       {
-        "imgLink": "/images/blog/blog3.jpg",
+        "imgLink": "/portfolio/images/blog/blog3.jpg",
         "designation": "Admin",
         "date": "07-03-2023",
         "title": "What are the latest trends in Graphic design according to you?",
@@ -282,37 +282,37 @@
     },
     "informations": [
       {
-        "imgLink": "/images/client/client1.png",
+        "imgLink": "/portfolio/images/client/client1.png",
         "title": "Richard Miles",
         "designation": "Chairman",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
       },
       {
-        "imgLink": "/images/client/client2.png",
+        "imgLink": "/portfolio/images/client/client2.png",
         "title": "Vesta Shufelt",
         "designation": "Executive Director",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
       },
       {
-        "imgLink": "/images/client/client3.png",
+        "imgLink": "/portfolio/images/client/client3.png",
         "title": "Joseph Alves",
         "designation": "Managing Director",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
       },
       {
-        "imgLink": "/images/client/client1.png",
+        "imgLink": "/portfolio/images/client/client1.png",
         "title": "Richard Miles",
         "designation": "Chairman",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
       },
       {
-        "imgLink": "/images/client/client2.png",
+        "imgLink": "/portfolio/images/client/client2.png",
         "title": "Vesta Shufelt",
         "designation": "Executive Director",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
       },
       {
-        "imgLink": "/images/client/client3.png",
+        "imgLink": "/portfolio/images/client/client3.png",
         "title": "Joseph Alves",
         "designation": "Managing Director",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
