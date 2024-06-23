@@ -59,7 +59,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Address</h4>
-                  <span>2661 High Meadow Lane Bear Creek, <br />Olancha, KY 93544</span>
+                  <span>Amman, Jordan <br />Jubaiha</span>
                 </div>
               </div>
               <div className="st-social-info">
