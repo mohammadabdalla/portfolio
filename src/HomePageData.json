@@ -175,7 +175,7 @@
       {
         "imgLink": "/portfolio/images/projects/django-blog-1.jpeg",
         "imgLinkLg": "/portfolio/images/projects/django-blog-2.jpeg",
-        "title": "Blogpos",
+        "title": "Blog Post",
         "subTitle": "Software Development",
         "description": "A blog app built with django with protected routes with admin panel where you can manage the the blog content and the users.",
         "technologies": "python/django, mysql",
