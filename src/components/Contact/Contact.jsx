@@ -5,7 +5,37 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 import { Icon } from '@iconify/react';
 import SocialLinks from '../SocialLinks/SocialLinks';
 
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
+
+
+
 const Contact = ({ data, socialData }) => {
+  //const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  //const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  //const publicKey = process.env.REACT_APP_EMAILJS_PUBLICKEY;
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey: publicKey,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+
   const { title, text, subTitle } = data;
   return (
     <section id="contact" className="st-dark-bg">
@@ -16,15 +46,15 @@ const Contact = ({ data, socialData }) => {
           <div className="col-lg-6">
             <h3 className="st-contact-title">Just say Hello</h3>
             <div id="st-alert"></div>
-            <form action="#" method="POST" className="st-contact-form" id="contact-form">
+            <form ref={form} onSubmit={sendEmail} method="POST" className="st-contact-form" id="contact-form">
               <div className="st-form-field">
-                <input type="text" id="name" name="name" placeholder="Your Name" required />
+                <input type="text" id="user_name" name="user_name" placeholder="Your Name" required />
               </div>
               <div className="st-form-field">
-                <input type="text" id="email" name="email" placeholder="Your Email" required />
+                <input type="text" id="user_email" name="user_email" placeholder="Your Email" required />
               </div>
               <div className="st-form-field">
-                <textarea cols="30" rows="10" id="msg" name="msg" placeholder="Your Message" required></textarea>
+                <textarea cols="30" rows="10" id="message" name="message" placeholder="Your Message" required></textarea>
               </div>
               <button className='st-btn st-style1 st-color1' type="submit" id="submit" name="submit">Send Message</button>
             </form>
