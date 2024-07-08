@@ -20,9 +20,6 @@ jobs:
       - name: Install and build
         run: npm install && npm run build
         
-      - name: Debug Env Vars
-        run: echo ${{ secrets.REACT_APP_EMAILJS_PUBLICKEY }} ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }} ${{ secrets.REACT_APP_EMAILJS_TEMPLATE_ID }}
-
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:

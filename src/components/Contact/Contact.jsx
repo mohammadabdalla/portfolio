@@ -22,7 +22,7 @@ const Contact = ({ data, socialData }) => {
     const serviceId = import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID;
     const templateId = import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_REACT_APP_EMAILJS_PUBLICKEY;
-
+    console.log("serviceId: ",serviceId)
     emailjs
       .sendForm(serviceId, templateId, form.current, {
         publicKey: publicKey,
