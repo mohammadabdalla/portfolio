@@ -7,23 +7,21 @@ import SocialLinks from '../SocialLinks/SocialLinks';
 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
-
-
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = ({ data, socialData }) => {
 
   
+
   const form = useRef();
 
   const sendEmail = (e) => {
-
     e.preventDefault();
-    
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const publicKey = process.env.REACT_APP_EMAILJS_PUBLICKEY;
+    const serviceId = import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_REACT_APP_EMAILJS_PUBLICKEY;
 
     emailjs
       .sendForm(serviceId, templateId, form.current, {
@@ -31,10 +29,12 @@ const Contact = ({ data, socialData }) => {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("success")
+          toast.success('Email sent successfully!');
+          form.current.reset()
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          toast.error(`Failed to send email`);
         },
       );
   };
@@ -43,6 +43,7 @@ const Contact = ({ data, socialData }) => {
   const { title, text, subTitle } = data;
   return (
     <section id="contact" className="st-dark-bg">
+      <ToastContainer />
       <div className="st-height-b100 st-height-lg-b80"></div>
       <SectionHeading title="Contact" />
       <div className="container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
