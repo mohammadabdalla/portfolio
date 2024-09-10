@@ -140,6 +140,17 @@
   "portfolioData": {
     "portfolioItems": [
       {
+        "imgLink": "/portfolio/images/projects/gpt.png",
+        "imgLinkLg": "/portfolio/images/projects/gpt.png",
+        "title": "Chtgpt Clone",
+        "subTitle": "React, Node, chatgpt clone",
+        "description": "",
+        "technologies": "Reactjs, Nodejs, Expressjs",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
         "imgLink": "/portfolio/images/projects/kanban.png",
         "imgLinkLg": "/portfolio/images/projects/kanban.png",
         "title": "React Kanban",
