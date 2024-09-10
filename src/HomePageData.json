@@ -1,0 +1,399 @@
+{
+  "heroData": {
+    "bgImgLink": "/portfolio/images/background/hero-bg.jpg",
+    "imgLink": "",
+    "title": "Mohammad <br /> Abdullah",
+    "subTitle": "Hello, I’m",
+    "designation": "A Software Engineer"
+  },
+  "aboutData": {
+    "imgLink": "/portfolio/images/myphoto_small.jpeg",
+    "cvPdf": "/portfolio/images/Resume.pdf",
+    "title": "Hi There! I'm Mohammad Abdullah",
+    "subtitle": "A Software Engineer",
+    "text": "I am a results-driven software engineer with a strong foundation in Full stack applications, specializing in crafting responsive and user-centric web applications. With a proven track record in e-commerce projects, I excel in optimizing performance and integrating seamless payment gateways. As an AWS Solutions Architect, showcasing my expertise in designing and implementing scalable cloud solutions. i Leverage my technical skills and AWS knowledge and provide leadership in architecting robust cloud infrastructures, addressing complex challenges, and collaborating effectively with cross-functional teams. Committed to continuous learning, I stay abreast of industry trends to deliver innovative solutions tailored to clients' business objectives",
+    "details": [
+      {
+        "title": "Birthday",
+        "info": "Aug 28, 1999"
+      },
+      {
+        "title": "Phone",
+        "info": "+962 79 2876980"
+      },
+      {
+        "title": "Email",
+        "info": "mohammadabdulla523@gmail.com"
+      },
+      {
+        "title": "From",
+        "info": "Amman, Jordan"
+      },
+      {
+        "title": "Language",
+        "info": "English, Arabic"
+      },
+      {
+        "title": "Freelance",
+        "info": "Available"
+      }
+    ]
+  },
+  "serviceData": {
+    "services": [
+      {
+        "imgLink": "/portfolio/images/icon/icon1.png",
+        "title": "Cloud Archetecting on AWS",
+        "text": "As an AWS SAA, my role is to be the keeper of the AWS Well Architected Framework pillars, ensuring customers are following best practices, guidance, and recommendations to develop cloud solutions that are secure, resilient, efficient, and managed with operational excellence.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/icon/icon2.png",
+        "title": "Software Engineer Lifecycle",
+        "text": "As a software engineer i deal with the design, development, testing, and maintenance of software applications.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "/portfolio/images/icon/icon3.png",
+        "title": "Database Management",
+        "text": "Design optimized SQL and NoSql databases to implement the pillars of DB infrastructure, Data Integreity, Data Consistency, Data Recovery (by including backups)",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "imgLink": "/portfolio/images/icon/icon4.png",
+        "title": "Clean Code",
+        "text": "I write a code that's easy to read, maintain, understand and change through structure and consistency yet remains robust and secure to withstand performance demands",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "500"
+      }
+    ]
+  },
+  "skillData": {
+    "title": "Gained Those Skills Working In The Software Engineering World Over the Past 4 Years",
+    "text": "Learning new skills & developing my self espicially in a revolutionary field like the IT field is a must, previously my main focus was on learning new languages/frameworks which is not necessarily wrong, but the system design/archeticture should have priority and that's what focusing more on now.",
+    "skills": [ 
+      {
+        "title": "Cloud/AWS",
+        "progress": "75%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "title": "JavaScript",
+        "progress": "90%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "title": "Angular",
+        "progress": "80%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "title": "React JS",
+        "progress": "70%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "title": "Nodejs/Expressjs",
+        "progress": "85%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
+        "title": "Sql/mysql/ORM",
+        "progress": "80%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "600"
+      },
+      {
+        "title": "NoSql/Mongodb",
+        "progress": "90%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "title": "Python/Django",
+        "progress": "90%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      }
+    ]
+  },
+  "portfolioData": {
+    "portfolioItems": [
+      {
+        "imgLink": "/portfolio/images/projects/kanban.png",
+        "imgLinkLg": "/portfolio/images/projects/kanban.png",
+        "title": "React Kanban",
+        "subTitle": "Kanban task manager",
+        "description": "Built a kanban task manager with react, where you can define boards, tasks, kanban lanes",
+        "technologies": "HTML5, CSS3, react, redux, redux-toolkit",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/projects/aws_arch_wowly.drawio.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/aws_arch_wowly.drawio.jpeg",
+        "title": "Wowly",
+        "subTitle": "Software/Cloud Development",
+        "description": "Built and deployed an application to the cloud ON s3 for static web hosting and an application load balancer and EC2 servers to host my backend as well as RDS to host my 'mysql' database",
+        "technologies": "HTML5, CSS3, Angular, Nodejs/Expressjs, MySql/ORM",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/projects/ecommerce_app.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/ecommerce_app.jpeg",
+        "title": "Ecommerce App",
+        "subTitle": "Software Development",
+        "description": "The ecommerce app i made included the following: Seamless registration, login/logout, and password recovery. Intuitive product catalog with categorization, filtering, and dynamic search capabilities. Feature-rich shopping cart with streamlined item management and a smooth checkout process. Comprehensive user account management, encompassing profiles, order history, and wishlists. Implementation of a robust product reviews and ratings system.",
+        "technologies": "React, Node, Express, Mongodb",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/projects/food-order-1.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/food-order-2.jpeg",
+        "title": "Food Delivery Webapp",
+        "subTitle": "Software Development",
+        "description": "A food delivery app built with reactjs including adming panel where you can manage reastaurant data such as users, menu, etc.. , and a restaurant panel so the owners of the restaurant can manage their own data as well, and a panel for customers who want to order with a checkout process.",
+        "technologies": "React, Node, Express, mysql/sequelize",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/projects/django-blog-1.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/django-blog-2.jpeg",
+        "title": "Blog Post",
+        "subTitle": "Software Development",
+        "description": "A blog app built with django with protected routes with admin panel where you can manage the the blog content and the users.",
+        "technologies": "python/django, mysql",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      }
+    ]
+  },
+  "blogData": {
+    "useFor": "blog",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "/portfolio/images/blog/blog1.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/portfolio/images/blog/blog2.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/portfolio/images/blog/blog3.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "Trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/portfolio/images/blog/blog1.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/portfolio/images/blog/blog2.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "The latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/portfolio/images/blog/blog3.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      }
+    ]
+  },
+  "reviewData": {
+    "useFor": "review",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "/portfolio/images/client/client1.png",
+        "title": "Richard Miles",
+        "designation": "Chairman",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/portfolio/images/client/client2.png",
+        "title": "Vesta Shufelt",
+        "designation": "Executive Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/portfolio/images/client/client3.png",
+        "title": "Joseph Alves",
+        "designation": "Managing Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/portfolio/images/client/client1.png",
+        "title": "Richard Miles",
+        "designation": "Chairman",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/portfolio/images/client/client2.png",
+        "title": "Vesta Shufelt",
+        "designation": "Executive Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/portfolio/images/client/client3.png",
+        "title": "Joseph Alves",
+        "designation": "Managing Director",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      }
+    ]
+  },
+  "resumeData": {
+    "experienceTitle": "Experience",
+    "experience": [
+      {
+        "title": "Senior Software Engineer",
+        "duration": "2023 - Present",
+        "subTitle": "Wowly",
+        "text": "In the 1'st of october 2023 i joined wowly where i learnt aws, built & architected systems on the cloud and on-premesis."
+      },
+      {
+        "title": "Software Engineer",
+        "duration": "2019 - 2023",
+        "subTitle": "Nixpend",
+        "text": "I started my proffisional carear at nixpend as a Jr. Software Developer and i was promoted to senior in three years."
+      },
+      {
+        "title": "Junior Web Developer",
+        "duration": "2018 - 2019",
+        "subTitle": "Upwork",
+        "text": "I started freelancing by creating websites on the freelancing sites like upwork.com and freelancer.com."
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "title": "Bachelor Degree In Computer Engineering",
+        "duration": "2017 - 2021",
+        "subTitle": "Al-balqa Applied University",
+        "text": "I studdied computer systems and networks engineering and volunteered in the CNE"
+      },
+      {
+        "title": "High School",
+        "duration": "2015 - 2017",
+        "subTitle": "Ibn Al-nafees",
+        "text": "In the high school i took a couple of computer science courses and that's what sparked my interest in IT in general."
+      }
+    ]
+  },
+  "contactData": {
+    "formTitle": "Just say Hello",
+    "title": "Contact Info",
+    "subTitle": "Visit my social profile and get connected",
+    "text": "Feel free to contact me if you have any concerns."
+  },
+  "socialData": [
+    {
+      "icon": "github",
+      "title": "Github",
+      "link": "https://github.com/mohammadabdalla"
+    },
+    {
+      "icon": "facebook",
+      "title": "Facbook",
+      "link": "https://web.facebook.com/profile.php?id=100027719169606"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "link": "/"
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/mohammad-abdulla-0b47581b6/"
+    }
+  ]
+}
