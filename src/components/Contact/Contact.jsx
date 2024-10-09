@@ -85,7 +85,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Phone</h4>
-                  <span>+962 79 2876980</span>
+                  <span>+962792876980</span>
                 </div>
               </div>
               <div className="st-single-contact-info">
