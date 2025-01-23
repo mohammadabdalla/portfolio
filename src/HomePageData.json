@@ -50,12 +50,12 @@
         "delay": "200"
       },
       {
-        "imgLink": "/portfolio/images/icon/icon2.png",
-        "title": "Software Engineer Lifecycle",
-        "text": "As a software engineer i deal with the design, development, testing, and maintenance of software applications.",
+        "imgLink": "/portfolio/images/icon/icon4.png",
+        "title": "Clean Code",
+        "text": "I write a code that's easy to read, maintain, understand and change through structure and consistency yet remains robust and secure to withstand performance demands",
         "effect": "zoom-out-up",
         "duration": "500",
-        "delay": "300"
+        "delay": "500"
       },
       {
         "imgLink": "/portfolio/images/icon/icon3.png",
@@ -64,15 +64,8 @@
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "400"
-      },
-      {
-        "imgLink": "/portfolio/images/icon/icon4.png",
-        "title": "Clean Code",
-        "text": "I write a code that's easy to read, maintain, understand and change through structure and consistency yet remains robust and secure to withstand performance demands",
-        "effect": "zoom-out-up",
-        "duration": "500",
-        "delay": "500"
       }
+      
     ]
   },
   "skillData": {
@@ -140,6 +133,17 @@
   "portfolioData": {
     "portfolioItems": [
       {
+        "imgLink": "/portfolio/wowly.webm",
+        "imgLinkLg": "/portfolio/wowly.webm",
+        "title": "Wowly",
+        "subTitle": "Software Development",
+        "description": "WOWLY is an Amazon Go-like project where customers in shopping malls can start and finish shopping using a smart trolley, including checkout. As the team lead, I was responsible for designing and architecting a comprehensive smart POS solution. This solution includes an admin panel with multi-level permissions and roles, analytics dashboards, a POS system integrated directly into the cart, Visa machine integration, and a robust data synchronization feature. Additionally, I led the implementation of CI/CD pipelines using GitHub Actions to ensure smooth and continuous product delivery on a scalable AWS infrastructure. I Built and deployed an application to the cloud ON s3 for static web hosting and an application load balancer and EC2 servers to host my backend as well as RDS to host my 'mysql' database",
+        "technologies": "HTML5, CSS3, Angular, Nodejs/Expressjs, MySql/ORM",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
         "imgLink": "/portfolio/images/projects/aws_arch_wowly.drawio.jpeg",
         "imgLinkLg": "/portfolio/images/projects/aws_arch_wowly.drawio.jpeg",
         "title": "Wowly",
@@ -168,6 +172,39 @@
         "subTitle": "Kanban task manager",
         "description": "Built a kanban task manager with react, where you can define boards, tasks, kanban lanes",
         "technologies": "HTML5, CSS3, react, redux, redux-toolkit",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/projects/ecommerce_app.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/ecommerce_app.jpeg",
+        "title": "Ecommerce App",
+        "subTitle": "Software Development",
+        "description": "The ecommerce app i made included the following: Seamless registration, login/logout, and password recovery. Intuitive product catalog with categorization, filtering, and dynamic search capabilities. Feature-rich shopping cart with streamlined item management and a smooth checkout process. Comprehensive user account management, encompassing profiles, order history, and wishlists. Implementation of a robust product reviews and ratings system.",
+        "technologies": "React, Node, Express, Mongodb",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/projects/food-order-1.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/food-order-2.jpeg",
+        "title": "Food Delivery Webapp",
+        "subTitle": "Software Development",
+        "description": "A food delivery app built with reactjs including adming panel where you can manage reastaurant data such as users, menu, etc.. , and a restaurant panel so the owners of the restaurant can manage their own data as well, and a panel for customers who want to order with a checkout process.",
+        "technologies": "React, Node, Express, mysql/sequelize",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/portfolio/images/projects/django-blog-1.jpeg",
+        "imgLinkLg": "/portfolio/images/projects/django-blog-2.jpeg",
+        "title": "Blog Post",
+        "subTitle": "Software Development",
+        "description": "A blog app built with django with protected routes with admin panel where you can manage the the blog content and the users.",
+        "technologies": "python/django, mysql",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
@@ -313,15 +350,21 @@
     "experience": [
       {
         "title": "Senior Software Engineer",
-        "duration": "2023 - Present",
+        "duration": "Aug 2024 - Present",
+        "subTitle": "Syarah",
+        "text": "Building cars auction system & API as service with python, Designing a loosely coupled micro-service infrastructure on AWS."
+      },
+      {
+        "title": "Senior Software Engineer",
+        "duration": "2023 - Jul 2024",
         "subTitle": "Wowly",
-        "text": "In the 1'st of october 2023 i joined wowly where i learnt aws, built & architected systems on the cloud and on-premesis."
+        "text": "Building an Amazon-Go like project enhancing shopping experience."
       },
       {
         "title": "Software Engineer",
         "duration": "2019 - 2023",
         "subTitle": "Nixpend",
-        "text": "I started my proffisional carear at nixpend as a Jr. Software Developer and i was promoted to senior in three years."
+        "text": "Worked on building a healthcare app integrated with an ERP system to manage all patients & practitioners procedures & insurance & accounting."
       },
       {
         "title": "Junior Web Developer",

@@ -12,3 +12,9 @@
 }
 
 
+.modal-media {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Add rounded corners if desired */
+  object-fit: cover; /* Ensures the media fits the container properly */
+}

@@ -6,6 +6,13 @@
   &:hover {
     cursor: pointer;
   }
+  .st-portfolio-video {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the video fits within its container */
+    border-radius: 5px; /* Match the styling of images, if applicable */
+  }
+  
 
   &::before {
     content: "";
